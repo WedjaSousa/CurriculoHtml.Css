@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currículo - Wedja Maria</title>
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #a53a95;
+      line-height: 1.6;
+      padding-top: 80px;
+    }
+
+    
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #5a0233;
+      padding: 20px 0;
+      text-align: center;
+      z-index: 1000;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: 500;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ed8fc2;
+    }
+
+   
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+      margin-top: 120px;
+    }
+
+    
+    h1, h2 {
+      text-align: center;
+      color: #740c47;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    
+    .info p {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+   
+    .section {
+      margin-bottom: 50px;
+    }
+
+    .section ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .section li {
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    
+    .skills span {
+      background-color: #580c3b;
+      color: #fff;
+      padding: 6px 14px;
+      margin: 8px;
+      border-radius: 20px;
+      font-size: 14px;
+      display: inline-block;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    .form-control {
+      padding: 12px;
+      border-radius: 6px;
+      border: 1px solid #ddd;
+      font-size: 1em;
+      background-color: #f9f9f9;
+    }
+
+    .btn {
+      background-color: #580c3b;
+      color: #fff;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 6px;
+      font-size: 1.1em;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #580c3b;
+    }
+
+  
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+  
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px;
+      }
+
+      nav a {
+        font-size: 14px;
+      }
+
+      .skills span {
+        font-size: 12px;
+        padding: 5px 10px;
+      }
+
+      .btn {
+        width: 100%;
+      }
+    }
+
+   
+    table {
+      width: 100%;
+      margin-top: 20px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #580c3b;
+      color: white;
+    }
+
+    tr:hover {
+      background-color: #f9f9f9;
+    }
+
+   
+    .foto {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  </style>
+</head>
+<body>
+
+  
+  <nav>
+    <a href="#objetivo">Objetivo</a>
+    <a href="#formacao">Formação Acadêmica</a>
+    <a href="#experiencia">Experiência</a>
+    <a href="#habilidades">Habilidades</a>
+    <a href="#contato">Contato</a>
+    <a href="#endereco">Endereço</a>
+  </nav>
+
+  <div class="container">
+    <div class="text-center">
+      <img class="foto" src="Image/image/wedja.jpg" alt="Wedja Maria" title="Wedja Maria">
+      <h1>Wedja Maria Sousa da Silva</h1>
+    </div>
+
+    <div class="info">
+      <p>Email: wedja-maria2010@hotmail.com</p>
+      <p>Telefone: (81) 99573-2319</p>
+      <p>Recife - PE</p>
+    </div>
+
+    <div class="text-center">
+      <a href="https://www.linkedin.com/in/wedja-sousa-43639b19b/" target="_blank">
+        <img src="Image/image/image copy.png" alt="LinkedIn" title="LinkedIn de Wedja" height="30px">
+      </a>
+      <a href="https://github.com/WedjaSousa" target="_blank">
+        <img src="Image/image/GIT.png" alt="GitHub" title="GitHub de Wedja" height="30px">
+      </a>
+    </div>
+
+    <div id="objetivo" class="section">
+      <h2>Objetivo</h2>
+      <p>Busco uma oportunidade de estágio na área de tecnologia com foco em desenvolvimento Front-End, onde possa aplicar meus conhecimentos acadêmicos e aprimorar minhas habilidades em tecnologias web. Meu objetivo é contribuir com soluções criativas, colaborar com a equipe e continuar o meu crescimento profissional no desenvolvimento de interfaces de qualidade.</p>
+    </div>
+
+    <div id="formacao" class="section">
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li><strong><a href="https://faculdadesenacpe.edu.br/graduacao/analise-e-desenvolvimento-de-sistemas" target="_blank">Graduanda em Análise e Desenvolvimento de Sistemas</a></strong></li>
+        <dd><b>- Universidade:</b> Faculdade Senac de Pernambuco</dd>
+        <dd><b>- Período:</b> 2024 - Andamento</dd>
+        <dd><b>- Descrição:</b> Graduação em Análise e Desenvolvimento de Sistemas no Programa Embarque Digital no Senac.</dd>
+        <li><strong><a href="https://portal.ifpe.edu.br/o-ifpe/ensino/cursos/" target="_blank">Tecnólogo em Computação Gráfica</a></strong></li>
+        <dd><b>- Instituição:</b> Instituto Federal de Educação, Ciência e Tecnologia de Pernambuco (IFPE)</dd>
+        <dd><b>- Período:</b> 2022 - 2024</dd>
+        <dd><b>- Descrição:</b> Tecnólogo em Computação Gráfica no IFPE Olinda</dd>
+        <li><strong><a href="https://pe.senac.br/cursos-tecnicos/financas.html" target="_blank">Tecnólogo em Finanças</a></strong></li>
+        <dd><b>- Universidade:</b> Sena - Recife</dd>
+        <dd><b>- Período:</b> 2020 - 2022</dd>
+        <dd><b>- Descrição:</b> Tecnólogo em Finanças.</dd>
+      </ul>
+    </div>
+
+    <div id="experiencia" class="section">
+      <h2>Experiência</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Período</th>
+            <th>Instituição</th>
+            <th>Cargo</th>
+            <th>Descrição</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2022 - Atual</td>
+            <td>Hospital Miguel Arraes</td>
+            <td>Auxiliar de Farmácia</td>
+            <td>Atua como Auxiliar de Farmácia, auxiliando na separação, estoque e fracionamento de medicamentos e materiais hospitalares.</td>
+          </tr>
+          <tr>
+            <td>2021 - 2023</td>
+            <td>Hospital Miguel Arraes</td>
+            <td>Jovem Aprendiz Administrativo</td>
+            <td>Atuou como Jovem Aprendiz Administrativo, auxiliando nas tarefas administrativas do hospital.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="habilidades" class="section">
+      <h2>Habilidades</h2>
+      <div class="skills">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>React</span>
+        <span>Figma</span>
+        <span>Adobe Suite</span>
+        <span>Canva</span>
+        <span>Git/GitHub</span>
+        <span>Banco de Dados</span>
+      </div>
+    </div>
+
+    <div id="contato" class="section">
+      <form action="">
+        <div class="row">
+          <div class="col-4">
+            <label for="nome" class="form-label"><strong>Nome</strong> <span class="obrigatorio">*</span></label>
+            <input type="text" class="form-control" id="nome" placeholder="Informe seu nome" required>
+          </div>
+          <div class="col-8">
+            <label for="sobrenome" class="form-label"><strong>Sobrenome</strong> <span class="obrigatorio">*</span></label>
+            <input type="text" class="form-control" id="sobrenome" placeholder="Informe seu sobrenome" required>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-6">
+            <label for="email" class="form-label"><strong>Email</strong> <span class="obrigatorio">*</span></label>
+            <input type="email" class="form-control" id="email" placeholder="Informe seu email | xxxxxx@xxxxx.xxx" required>
+          </div>
+          <div class="col-6">
+            <label for="telefone" class="form-label"><strong>Telefone</strong> <span class="obrigatorio">*</span></label>
+            <input type="tel" class="form-control" id="telefone" placeholder="Informe seu telefone | (xx)xxxxx-xxxx" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" required>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-6">
+            <label for="dataHora" class="form-label"><strong>Data/Hora <span class="obrigatorio">*</span></strong></label>
+            <input type="datetime-local" class="form-control" id="dataHora" required min="2025-05-01" max="2025-12-31">
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-12">
+            <label for="mensagem" class="form-label"><strong>Mensagem</strong></label>
+            <textarea class="form-control" id="mensagem" rows="3" placeholder="Conte sua história..."></textarea>
+          </div>
+        </div>
+        <div class="row my-3">
+          <div class="col-12 text-center">
+            <button type="reset" class="btn formulario">Cancelar</button>
+            <button type="submit" class="btn formulario">Enviar</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <div class="card hrBcg my-2"></div>
+
+    <div class="container scroll" id="endereco">
+      <h2>Endereço</h2>
+      <div class="container">
+        <iframe src="https://www.google.com/maps/place/R.+Abd%C3%ADsio+Veiga,+123+-+Ilha+do+Retiro,+Recife+-+PE,+50750-340/@-8.0624738,-34.9056444,17z/data=!3m1!4b1!4m5!3m4!1s0x7ab18d869e7548d:0x80e8a91370c139bc!8m2!3d-8.0624738!4d-34.9056444?entry=ttu&g_ep=EgoyMDI1MDUwNy4wIKXMDSoASAFQAw%3D%3D" width="1100" height="350" frameborder="0" loading="lazy" referrerpolicy="_
+      </div>
+       <footer>
+    <p>Copyright © 2025 Wedja Maria. Todos os Direitos Reservados.</p>
+  </footer>
+  </body>
+</html>
